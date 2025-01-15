@@ -1,4 +1,4 @@
-# 🐤 Canary
+# Canary
 
 ## About the Name
 > Just as canaries were used in coal mines to detect dangerous gases before they could harm miners, Canary serves as an early warning system for digital threats. In the 19th century, these birds were exceptional risk predictors due to their sensitivity to carbon monoxide, helping prevent numerous mining incidents during industrialization.
