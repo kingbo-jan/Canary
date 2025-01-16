@@ -4,7 +4,7 @@ import { URLAnalyzer } from './urlAnalyzer.js';
 const urlAnalyzer = new URLAnalyzer();
 
 // Google Safe Browsing API configuration
-const SAFE_BROWSING_API_KEY = 'AIzaSyCks9WKYEX0a3Tchegijnbds9Io_wuWBvg';
+const SAFE_BROWSING_API_KEY = 'API_KEY';
 const SAFE_BROWSING_API_URL = 'https://safebrowsing.googleapis.com/v4/threatMatches:find';
 
 // Your existing phishing domains list
