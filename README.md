@@ -66,3 +66,52 @@ Our mission is to democratize cybersecurity by creating tools that are:
 
 ## License
 [Coming Soon]
+
+# Anti-Phishing Email check
+
+## Spoofing
+
+**Protocols:**
+
+1. **SPF (Sender Policy Framework)**
+    - 
+2. **DKIM (Domain Keys Identified Mail)** 
+3. **DMARC ((Domain-based Message Authentication, Reporting & Conformance)** 
+
+**How to analyze a phishing attack:**
+
+- Sender Address (kingbojan3@gmail.com)
+- SMTP IP Address (127.0.0.1)
+- Domain base (@gmail.com)
+- Subject(sender address and SMTP address may be constantly changing)
+
+**Email Header**
+
+- header of the section of the email containing information such as sender, recipient, and date
+- *Return-Path, Reply-To, Received*
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/606349b0-fe7a-45c4-82b8-def8ac34a550/f3deeeb6-0142-40db-8331-34af509235f5/image.png)
+
+- this above can be used to determine header analysis to detect spam and track email’s route to ensure that it is from the right address
+
+**what does it do?**
+
+- From & To fields to find out who is sending the email and who is receiving.
+- have to be downloaded in .eml formats (plain text file for emails)
+
+**spam**
+
+- can use header analysis and other methods to detect spam emails
+
+## Important Fields:
+
+- **from** (shows the name and email address of the sender)
+- **to** (details of the recipient)
+    - **CC** (carbon copy) → to keep people in the loop
+    - **BCC** (blind carbon copy) → to keep people in the loop without other seeing who else is in the loop
+- **date** (timestamp when the email is sent)
+- **subject** (topic of the email)
+- **Return-Path** (a.k.a Reply-To) → when replied to email, the reply is sent to the address specified in the Return-Path field.
+- **Domain key and DKIM signatures** (email signatures that help email service providers identify and authenticate your emails, similar to SPF signatures)
+- **Message-ID** (header that has a unique combination of letters that identifies each email) → no two emails will have the same Message-ID
+- **MIME-Version** (multipurpose internet mail extension) → internet coding standard that converts non-text content into text so that the non-text content can be attached to a mail via SMTP (simple mail transfer protocol)
