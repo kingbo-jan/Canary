@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canary Phishing Detection</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .logo {
+            width: 30px;
+            height: 30px;
+            background-color: #FFD700;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .status-container {
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        .safe {
+            background-color: #e7f5e7;
+            color: #0f5f0f;
+            border: 1px solid #b7dfb7;
+        }
+        
+        .unsafe {
+            background-color: #fce8e8;
+            color: #cc0000;
+            border: 1px solid #f5c2c2;
+        }
+        
+        .url-display {
+            word-break: break-all;
+            margin: 10px 0;
+            padding: 8px;
+            background: #f5f5f5;
+            border-radius: 4px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"></div>
+        <h2>Canary Security</h2>
+    </div>
+    
+    <div class="status-container safe">
+        <h3>Current Site Status</h3>
+        <div class="url-display" id="currentUrl">
+            Loading current URL...
+        </div>
+        <div id="statusMessage">
+            Checking site security...
+        </div>
+    </div>
+    
+    <div class="recent-checks">
+        <h3>Recent Checks</h3>
+        <ul id="recentList">
+            <li>No recent checks</li>
+        </ul>
+    </div>
+    
+    <button id="checkNow">Check Current Site</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>

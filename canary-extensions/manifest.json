@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Canary Phishing Detector",
+    "version": "1.0",
+    "default_icons": "canary-test.png"
+    ,
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "storage",
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "canary-test.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"], 
+        "run_at": "document_end",
+        "all_frames": true
+      }
+    ],
+    "host_permissions": [
+      "<all_urls>",
+      "https://safebrowsing.googleapis.com/*"
+    ]
+  }
