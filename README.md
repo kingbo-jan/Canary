@@ -5,12 +5,12 @@
 > — Bonney, A. Gale Ambassador at U of Oxford
 
 ## What is Canary?
-Canary is an automatic user-friendly threat detection tool that emphasizes proactive security rather than reactive responses. By focusing on preventative measures before incidents occur, it helps users stay safe online before they encounter threats.
+Canary is an automatic user-friendly threat detection application tool that emphasizes proactive security rather than reactive responses. By focusing on preventative measures before incidents occur, it helps users stay safe online before they encounter threats.
 
 ### Key Features
 
 #### 🛡️ Phishing Detection Tool
-Our flagship feature leverages industry-standard threat detection capabilities with a user-friendly approach:
+Our feature leverages industry-standard threat detection capabilities with a user-friendly approach:
 - Automatic browser monitoring
 - Real-time threat detection  
 - Cross-referencing with multiple security databases
@@ -20,7 +20,8 @@ Our flagship feature leverages industry-standard threat detection capabilities w
 Unlike traditional tools such as WOT, PhishTank, and VirusTotal that require manual URL submission, Canary:
 - Automatically scans as users browse
 - Provides real-time protection
-- Offers proactive threat notifications
+- Offers clear context and education on potential phishing techniques
+- Assists with actionable warnings to guide the users' next steps
 - Integrates seamlessly with daily browsing
 
 ## The Vision Behind Canary
@@ -31,9 +32,9 @@ Unlike traditional tools such as WOT, PhishTank, and VirusTotal that require man
 ### Why I Created This Tool
 As someone transitioning into tech, I experienced firsthand how overwhelming cybersecurity tools can be. The existing security landscape presents two major challenges:
 
-1. **Technical Complexity**: Most security tools are designed for industry professionals, making them inaccessible to everyday users.
+1. **Technical Complexity**: Most security tools are designed for industry professionals, making them inaccessible and harder to navigate for everyday users.
 
-2. **User Accessibility Gap**: While everyday users are most vulnerable to cyber attacks, they lack access to user-friendly security tools.
+2. **User Accessibility Gap**: While everyday users are most vulnerable to cyber attacks, they lack access to user-friendly security tools to protect themselves.
 
 ### The Solution
 Canary bridges this gap by:
@@ -48,7 +49,7 @@ Our mission is to democratize cybersecurity by creating tools that are:
 - Industry-standard compliant
 - Easy to configure
 - Simple to use
-- Effective in protecting users
+- Effective in protecting and educating users
 
 ---
 
