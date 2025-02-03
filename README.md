@@ -5,18 +5,20 @@
 > — Bonney, A. Gale Ambassador at U of Oxford
 
 ## What is Canary?
-Canary is an automatic user-friendly threat detection application tool that emphasizes proactive security rather than reactive responses. By focusing on preventative measures before incidents occur, it helps users stay safe online before they encounter threats.
+Canary is a cybersecurity tool that emphasizes human-centered security designs. It focuses on gamified learning and user-friendly solutions to help everyday users protect themselves from various cyber threats and scams that they are unfamiliar with. It leverages smart AI Assistants to help proactively analyze and cross reference the web as the user is using it and warns them against potential threats. 
 
-### Key Features
+I believe that humans should be at the forefront of security designs rather than as an afterthought, so let us all be informed and stay safe together. 
 
-#### 🛡️ Phishing Detection Tool
+### Key Features:
+
+#### 1. 🛡️ Phishing Detection Tool
 Our feature leverages industry-standard threat detection capabilities with a user-friendly approach:
 - Automatic browser monitoring
 - Real-time threat detection  
 - Cross-referencing with multiple security databases
 - Instant user notifications for suspicious links
 
-#### What Sets Canary Apart?
+#### What Sets This Tool Apart?
 Unlike traditional tools such as WOT, PhishTank, and VirusTotal that require manual URL submission, Canary:
 - Automatically scans as users browse
 - Provides real-time protection
