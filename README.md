@@ -11,7 +11,7 @@ I believe that humans should be at the forefront of security designs rather than
 
 ### Key Features:
 
-#### 1. 🛡️ Phishing Detection Tool
+#### 1. 🛡️ Phishing Detection Tool (MVP)
 Our feature leverages industry-standard threat detection capabilities with a user-friendly approach:
 - Automatic browser monitoring
 - Real-time threat detection  
@@ -23,7 +23,7 @@ Unlike traditional tools such as WOT, PhishTank, and VirusTotal that require man
 - Automatically scans as users browse
 - Provides real-time protection
 - Offers clear context and education on potential phishing techniques
-- Assists with actionable warnings to guide the users' next steps
+- AI Assists with actionable warnings to guide the users' next steps
 - Integrates seamlessly with daily browsing
 
 ## The Vision Behind Canary
@@ -53,22 +53,7 @@ Our mission is to democratize cybersecurity by creating tools that are:
 - Simple to use
 - Effective in protecting and educating users
 
----
-
-## Getting Started
-[Coming Soon]
-
-## Features
-[Coming Soon]
-
-## Documentation
-[Coming Soon]
-
-## Contributing
-[Coming Soon]
-
-## License
-[Coming Soon]
+--
 
 # Anti-Phishing Email check
 
