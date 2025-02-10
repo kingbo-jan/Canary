@@ -12,9 +12,9 @@ I believe that humans should be at the forefront of security designs rather than
 ### Key Features:
 
 #### 1. Community Security Platform (MVP)
-> Creating a local threat visualization so that users in a community (such as in apartment communities) can stay up to date with potential threats and vulnerabilities
-> user education systems
-> community alert systems
+- Creating a local threat visualization so that users in a community (such as in apartment communities) can stay up to date with potential threats and vulnerabilities
+- user education systems
+- community alert systems
 
 #### 2. 🛡️ Phishing Detection Tool 
 Our feature leverages industry-standard threat detection capabilities with a user-friendly approach:
